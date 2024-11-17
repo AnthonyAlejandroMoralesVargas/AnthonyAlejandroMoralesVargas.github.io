@@ -614,14 +614,15 @@ body {
     font-size: 16px;
     padding: 5px 0px;
 }
- /*Footer*/
+
+/*Footer*/
 .footer {
 
     height: 97px;
     background: #384001;
 }
 
-.enlaces{
+.enlaces {
     display: flex;
     height: 97px;
     align-items: center;
@@ -635,9 +636,11 @@ body {
     display: flex;
     gap: 90px;
 }
+
 .enlaces ul li {
     display: inline-block;
 }
+
 .enlaces ul li a {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -645,11 +648,12 @@ body {
     text-transform: uppercase;
     font-size: 16px;
 }
+
 .enlaces ul li a:hover {
     color: #FFFF00;
 }
 
-.social-media{
+.social-media {
     height: 97px;
     display: flex;
     gap: 45px;
@@ -657,14 +661,43 @@ body {
     float: right;
 }
 
-.social-media .texto-social{
+.social-media .texto-social {
     font-family: 'Inter', sans-serif;
     color: #A3A656;
     font-size: 16px;
     text-transform: uppercase;
 }
 
-.social-media .YouTube{
+.social-media .YouTube {
     margin-right: 45px;
 }
 
+.social-media .facebook {
+    height: 45px;
+    width: 41px;
+}
+
+.social-media .facebook img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-media .twitter {
+    height: 36px;
+    width: 41px;
+}
+
+.social-media .twitter img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-media .YouTube {
+    height: 32px;
+    width: 41px;
+}
+
+.social-media .YouTube img {
+    width: 100%;
+    height: 100%;
+}
