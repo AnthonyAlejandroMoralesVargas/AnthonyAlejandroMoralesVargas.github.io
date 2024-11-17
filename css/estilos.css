@@ -1,0 +1,670 @@
+/* Reseteo general */
+body {
+    margin: 0px;
+}
+
+.header {
+    height: 70px;
+    background: hsl(62, 32%, 49%);
+
+}
+
+.barra {
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    padding-left: 70px;
+    height: 70px;
+    align-items: center;
+}
+
+.barra ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.barra ul li a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.barra ul li a:hover {
+    color: #FFFF00;
+}
+
+.configuracion {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.configuracion .user {
+    margin-right: 10px;
+}
+
+.configuracion .MiCuenta {
+    align-items: center;
+    margin-right: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.configuracion .idioma {
+    display: flex;
+    align-items: center;
+}
+
+.configuracion .idioma .ES {
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.configuracion .idioma .ES {
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
+}
+
+.configuracion .idioma .flag {
+    margin-right: 10px;
+}
+
+.configuracion .idioma .arrow {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.principal {
+    position: relative;
+    overflow: hidden;
+}
+
+.principal img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.texto-principal {
+    position: absolute;
+    top: 206px;
+    left: 478px;
+    transform: translate(-100%, -50%);
+    font-size: 96px;
+    font-family: 'Romanesco', cursive;
+}
+
+.texto-secundario {
+    position: absolute;
+    top: 327px;
+    left: 575px;
+    transform: translate(-70%, -50%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.agenda {
+    height: 100px;
+    display: flex;
+    background: #F2F6F6;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    height: 100px;
+    padding-left: 65px;
+}
+
+.reserva {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.codigo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reserva label {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.codigo label {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 35px;
+}
+
+.reserva input {
+    height: 55px;
+    width: 275px;
+    border: solid #F2F6F6;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.codigo input {
+    height: 55px;
+    width: 200px;
+    border: 1px solid #F2F6F6;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.codigo input::placeholder {
+    color: #cfc8c8;
+}
+
+/*Seccion Cards Reservas*/
+
+
+.card-contenedor {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+}
+
+/*Masaje de pies*/
+.card-masajepies {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.card-masajepies .titulo-card1 {
+    padding: 15px 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: hsl(62, 32%, 49%);
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.card-masajepies .imagen-masajepies {
+    width: 350px;
+    height: 265px;
+}
+
+.card-masajepies .imagen-masajepies img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-masajepies .descripcion {
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.card-masajepies .costo-reserva {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-masajepies .costo-reserva .costo {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.card-masajepies .button-reservar {
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.card-masajepies .button-reservar a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-masajepies .button-reservar:hover {
+    background: #384001;
+}
+
+/*Masaje relajante*/
+.card-masajerelajante {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.card-masajerelajante .titulo-card2 {
+    padding: 15px 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: hsl(62, 32%, 49%);
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.card-masajerelajante .imagen-masajerelajante {
+    width: 350px;
+    height: 265px;
+}
+
+.card-masajerelajante .imagen-masajerelajante img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-masajerelajante .descripcion-card2 {
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.card-masajerelajante .costo-reserva-card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-masajerelajante .costo-reserva-card2 .costo-card2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.card-masajerelajante .button-reservar-card2 {
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.card-masajerelajante .button-reservar-card2 a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-masajerelajante .button-reservar-card2:hover {
+    background: #384001;
+}
+
+/*Masaje con bambú*/
+.card-masajebambu {
+    width: 350px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+
+.card-masajebambu .titulo-card3 {
+    padding: 15px 0px;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: hsl(62, 32%, 49%);
+    border-radius: 15px 15px 0px 0px;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.card-masajebambu .imagen-masajebambu {
+    width: 350px;
+    height: 265px;
+}
+
+.card-masajebambu .imagen-masajebambu img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-masajebambu .descripcion-card3 {
+    margin: 15px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.card-masajebambu .costo-reserva-card3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-masajebambu .costo-reserva-card3 .costo-card3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 13px;
+}
+
+.card-masajebambu .button-reservar-card3 {
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 10px 40px;
+}
+
+.card-masajebambu .button-reservar-card3 a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.card-masajebambu .button-reservar-card3:hover {
+    background: #384001;
+}
+
+/*Seccion Suscripciones*/
+.suscripciones {
+    height: 770px;
+    background: #F2F6F6;
+}
+
+.suscripciones .titulo-seccion {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripciones .contenedor {
+    display: flex;
+    gap: 134px;
+    justify-content: center;
+}
+
+/*Suscripcion gold*/
+.suscripcion-gold {
+    width: 310px;
+}
+
+.suscripcion-gold .header-gold {
+    display: flex;
+    justify-content: center;
+}
+
+
+.suscripcion-gold .icon-gold {
+    width: 255px;
+    height: 255px;
+    border: 10px solid #4A4A00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.icon-circle img {
+    width: 233px;
+    height: 233px;
+}
+
+.titulo-gold {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.suscripcion-gold .button-gold {
+    margin-top: 30px;
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripcion-gold .button-gold a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.suscripcion-gold .button-gold:hover {
+    background: #384001;
+}
+
+.suscripcion-gold .suscripcion-detalles ul {
+    padding-left: 90px;
+    margin-top: 25px;
+}
+
+.suscripcion-gold .suscripcion-detalles ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+/*Suscripcion premium*/
+.suscripcion-premium {
+    width: 310px;
+}
+
+.suscripcion-premium .header-premium {
+    display: flex;
+    justify-content: center;
+}
+
+
+.suscripcion-premium .icon-premium {
+    width: 255px;
+    height: 255px;
+    border: 10px solid #4A4A00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.icon-circle img {
+    width: 233px;
+    height: 233px;
+}
+
+.titulo-premium {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.suscripcion-premium .button-premium {
+    margin-top: 30px;
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripcion-premium .button-premium a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.suscripcion-premium .button-premium:hover {
+    background: #384001;
+}
+
+.suscripcion-premium .suscripcion-detalles ul {
+    padding-left: 90px;
+    margin-top: 25px;
+}
+
+.suscripcion-premium .suscripcion-detalles ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+/*Suscripcion PLATE*/
+.suscripcion-plate {
+    width: 310px;
+}
+
+.suscripcion-plate .header-plate {
+    display: flex;
+    justify-content: center;
+}
+
+
+.suscripcion-plate .icon-plate {
+    width: 255px;
+    height: 255px;
+    border: 10px solid #4A4A00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+
+}
+
+.icon-circle img {
+    width: 233px;
+    height: 233px;
+}
+
+.titulo-plate {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.suscripcion-plate .button-plate {
+    margin-top: 30px;
+    background: hsl(62, 32%, 49%);
+    border-radius: 35px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.suscripcion-plate .button-plate a {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.suscripcion-plate .button-plate:hover {
+    background: #384001;
+}
+
+.suscripcion-plate .suscripcion-detalles ul {
+    padding-left: 90px;
+    margin-top: 25px;
+}
+
+.suscripcion-plate .suscripcion-detalles ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+ /*Footer*/
+.footer {
+
+    height: 97px;
+    background: #384001;
+}
+
+.enlaces{
+    display: flex;
+    height: 97px;
+    align-items: center;
+    float: left;
+}
+
+.enlaces ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 70px;
+    display: flex;
+    gap: 90px;
+}
+.enlaces ul li {
+    display: inline-block;
+}
+.enlaces ul li a {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #A3A656;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.enlaces ul li a:hover {
+    color: #FFFF00;
+}
+
+.social-media{
+    height: 97px;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    float: right;
+}
+
+.social-media .texto-social{
+    font-family: 'Inter', sans-serif;
+    color: #A3A656;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.social-media .YouTube{
+    margin-right: 45px;
+}
+
